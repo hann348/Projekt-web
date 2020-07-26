@@ -1,0 +1,124 @@
+.mainStyle {
+	background: linear-gradient(90deg, rgba(106, 142, 156, 100) 0%, rgba(0, 72, 89, 100) 100%);
+}
+
+.footerStyle {
+	position: fixed;
+	text-align: right;
+	bottom: 2%;
+	left: 0;
+	right: 2%;
+	height: 30px;
+	font-family: Courier;
+	font-size: 16;
+}
+
+a#footLink:link {
+text-decoration: none; 
+color: RGB(0, 0, 0);
+}
+
+a#footLink:visited {
+	text-decoration: none; 
+	color: RGB(0, 0, 0);
+}
+
+a#footLink:hover {
+	text-decoration: none; 
+	color: RGB(255, 255, 255);
+}
+
+
+.navStyle {
+	float: left;
+}
+
+.poemStyle {
+	padding-top: 5%;
+	padding-left: 30%;
+	font-family: Helvetica;
+	font-size: 20px;
+}
+
+.backButton {
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  width: 150px;
+  
+  background-color: RGB(100, 100, 100);
+  border-style: solid;
+  border-width: 1px 2px 2px 1px;
+  border-color: RGB(50, 50, 50);
+
+  color: RGB(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Courier;
+  font-size: 16px;
+
+  cursor: pointer;  
+  transition-duration: 0.4s
+}
+
+a#standardBackButton:hover {
+  background-color: RGB(150, 150, 150);
+  color: RGB(0, 0, 0);
+}
+
+
+.menuButton {
+  display: inline-block;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  width: 150px;
+  
+  background-color: RGB(100, 100, 100);
+  border-style: solid;
+  border-width: 1px 2px 2px 1px;
+  border-color: RGB(50, 50, 50);
+
+  color: RGB(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Courier;
+  font-size: 16px;
+
+  cursor: pointer;  
+  transition-duration: 0.4s
+}
+
+a#standardMenuButton:hover {
+  background-color: RGB(150, 150, 150);
+  color: RGB(0, 0, 0);
+}
+
+a#standardMenuButton:visited {
+  color: RGB(0, 0, 0);
+}
+  
+.mainMenuUl {
+  padding-left: 2%;
+}
+
+
+.mainMenuLi {    
+  list-style: none;   
+  /* important: beneath path relative to main_styles.css, not to any html */
+  /*
+  background-image: url('simple_cube_impossible.svg'); 
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 40px;
+  */
+  
+  display: flex;
+  align-items: center; 
+  padding-left: 20%;
+}
+
+
+
+
